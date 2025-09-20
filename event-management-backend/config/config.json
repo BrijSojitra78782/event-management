@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Admin@123",
+    "database": "eventmanagement",
+    "host": "localhost",
+    "dialect": "mysql",
+    "port":3306
+  },
+  "test": {
+    "username": "event_management_admin",
+    "password": "Admin@123",
+    "database": "eventmanagement",
+    "host": "10.50.11.22",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "event_management_admin",
+    "password": "Admin@123",
+    "database": "eventmanagement",
+    "host": "10.50.11.22",
+    "dialect": "mysql"
+  }
+}
+ 

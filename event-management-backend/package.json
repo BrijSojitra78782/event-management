@@ -1,0 +1,41 @@
+{
+  "name": "event-management-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.2",
+    "mysql2": "^3.12.0",
+    "mysqldump": "^3.2.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.10.0",
+    "path": "^0.12.7",
+    "process": "^0.11.10",
+    "puppeteer": "^24.3.1",
+    "qrcode": "^1.5.4",
+    "sequelize": "^6.37.5",
+    "sequelize-cli": "^6.6.2",
+    "ssh2": "^1.16.0",
+    "winston": "^3.17.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
